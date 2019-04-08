@@ -23,27 +23,27 @@ in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/2
 ```
 public class Pair<T>
 ```
-in [class](URL)
+in [Pair](https://github.com/FranklinLiou/5D_genericTypes/blob/master/Pair.java#L8)
 
 
 - declaration of a variable that can hold a reference to an instance
 of such a class:
 ```
-your exemplifying line from the Pair example here
+Pair pair;
 ```
 in [class](URL)
 
 
 - assignment to such a variable:
 ```
-your exemplifying line from the Pair example here
+pair = new Pair(0, 1);
 ```
 in [class](URL)
 
 
 - declaration of a method that returns an instance of such a type:
 ```
-your exemplifying line from the Pair example here
+private static Pair nextPairAfter()
 ```
 in [class](URL)
 
