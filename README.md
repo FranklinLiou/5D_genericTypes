@@ -29,28 +29,28 @@ in [Pair](https://github.com/FranklinLiou/5D_genericTypes/blob/master/Pair.java#
 - declaration of a variable that can hold a reference to an instance
 of such a class:
 ```
-Pair pair;
+private T first;
 ```
-in [class](URL)
+in [class](https://github.com/FranklinLiou/5D_genericTypes/blob/master/Pair.java#L10)
 
 
 - assignment to such a variable:
 ```
-pair = new Pair(0, 1);
+this.first = first;
 ```
-in [class](URL)
+in [class](https://github.com/FranklinLiou/5D_genericTypes/blob/master/Pair.java#L14)
 
 
 - declaration of a method that returns an instance of such a type:
 ```
-private static Pair nextPairAfter()
+public T getFirst()  { return first; }
 ```
-in [class](URL)
+in [class](https://github.com/FranklinLiou/5D_genericTypes/blob/master/Pair.java#L18)
 
 
 - successful instantiation of an instance of such a class:
 ```
-your exemplifying line from the Pair example here
+???
 ```
 in [class](URL)
 
@@ -58,7 +58,7 @@ in [class](URL)
 - *un*successful instantiation of an instance of such a class,
 caught by the compiler:
 ```
-your exemplifying line from the Pair example here
+???
 ```
 in [class](URL)
 
@@ -66,20 +66,20 @@ in [class](URL)
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-your exemplifying line from the Pair example here
+private T first;
 ```
-in [class](URL)
+in [class](https://github.com/FranklinLiou/5D_genericTypes/blob/master/Pair.java#L10)
 
 
 - the declaration of a method that accepts a parameter of a generic type:
 ```
-your exemplifying line from the Pair example here
+???
 ```
 in [class](URL)
 
 
 - the declaration of a method that returns a value of a generic type:
 ```
-your exemplifying line from the Pair example here
+private static Pair nextPairAfter()
 ```
-in [class](URL)
+in [class](https://github.com/FranklinLiou/5D_genericTypes/blob/master/FibPair.java#L56)
